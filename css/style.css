@@ -18,8 +18,8 @@
 
     /* Primary color - use for main elements and accents */
   --primary-color: #007bff; /* Blue */
-  --min-primary-color: #0A4C6B;
-  --sec-primary-color: #0a4c6bf3;
+  --min-primary-color: #186526;
+  --sec-primary-color: #178413;
 
   /* Secondary color - use for secondary elements and accents */
   --secondary-color: #d9dee2ef; /* Gray */
@@ -340,7 +340,7 @@ header .navbar a:hover{
 }
 
 
-header .fa-bars{
+.header .fa-bars{
     font-size: 2.8rem;
     color: var(--background-color);
     cursor: pointer;
@@ -406,7 +406,7 @@ header .fa-bars{
     justify-content: space-between;
     gap: 2rem;
     margin-top: 3rem;
-    background: var(--bg-sc-color);
+    background-image: linear-gradient(to right, rgb(16, 85, 16), rgb(5, 94, 5), rgb(224, 238, 144), rgb(6, 185, 66), rgb(85, 57, 16));
     padding: 2rem;
 }
 
@@ -767,7 +767,7 @@ footer .rows .items h1 {
 }
 
 .footer .rows .items img {
-    width: 24rem;
+    width: 28rem;
     /* border-radius: 50%; */
     cursor: pointer;
 }
