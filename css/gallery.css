@@ -18,11 +18,15 @@
 
     --bg-sc-color: rgba(77, 74, 74, 0.096);
 
-    --primary-color: #007bff;
+  --primary-color: #24c015; /* Blue */
+  --min-primary-color: #186526;
+  --sec-primary-color: #178413;
 
-    --secondary-color: #d9dee2ef;
+  /* Secondary color - use for secondary elements and accents */
+  --secondary-color: #d9dee2ef; /* Gray */
 
-    --accent-color: #2410a9;
+  /* Accent color - use for call-to-action buttons and important elements */
+  --accent-color: #1a740e; /* blue */
 
     --background-color: #f8f9fa;
 

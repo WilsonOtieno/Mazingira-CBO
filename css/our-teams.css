@@ -18,13 +18,15 @@
     --bg-sc-color: rgba(77, 74, 74, 0.096);
 
     /* Primary color - use for main elements and accents */
-  --primary-color: #007bff; /* Blue */
+  --primary-color: #24c015; /* Blue */
+  --min-primary-color: #186526;
+  --sec-primary-color: #178413;
 
   /* Secondary color - use for secondary elements and accents */
-  --secondary-color: #95a3b076; /* Gray */
+  --secondary-color: #d9dee2ef; /* Gray */
 
   /* Accent color - use for call-to-action buttons and important elements */
-  --accent-color: #2410a9; /* Green */
+  --accent-color: #1a740e; /* blue */
 
   /* Background color - use for background of the page */
   --background-color: #f8f9fa; /* Light gray */
@@ -437,7 +439,7 @@ section{
 }
 
 .team .team-member {
-    background-color: #f9f9f9; 
+    background-color: #05cc2033; 
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     position: relative;
     border-radius: 5px;
@@ -535,7 +537,7 @@ section{
 }
 
 .team .team-member .social a {
-    background: rgba(0, 123, 255, 0.06); 
+    background: rgba(5, 143, 17, 0.281); 
     transition: ease-in-out 0.3s;
     display: flex;
     align-items: center;
@@ -546,13 +548,14 @@ section{
 }
 
 .team .team-member .social a i {
-    color: rgba(0, 123, 255, 0.4); 
+    color: var(--accent-color); 
     font-size: 16px;
     margin: 0 2px;
 }
 
 .team .team-member .social a:hover {
-    background: #007bff; 
+    background: var(--primary-color);
+    
 }
 
 .team .team-member .social a:hover i {

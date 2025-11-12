@@ -17,7 +17,12 @@
     --bg-sc-color: rgba(77, 74, 74, 0.096);
 
     /* Primary color - use for main elements and accents */
-  --primary-color: #007bff; /* Blue */
+  --primary-color: #24c015; /* Blue */
+  --min-primary-color: #186526;
+  --sec-primary-color: #178413;
+
+  /* Accent color - use for call-to-action buttons and important elements */
+  --accent-color: #1a740e;
 
   --bgnd-color: #119c34;
 
