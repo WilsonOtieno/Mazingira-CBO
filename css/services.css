@@ -19,7 +19,7 @@
     /* Primary color - use for main elements and accents */
   --primary-color: #007bff; /* Blue */
 
-  --bgnd-color: #39cccc;
+  --bgnd-color: #119c34;
 
   /* Secondary color - use for secondary elements and accents */
   --secondary-color: #95a3b076; /* Gray */
@@ -65,12 +65,10 @@ html{
 
 
 
-section{
-    padding: 2rem 9%;
-}
+
 
 .home-services {
-    background: url(../img/services/servicebg.jpg);
+    background: url(../img/mazingira/treeplanting1.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -122,7 +120,7 @@ section{
 .services .row .box {
     text-align: center;
     color: var(--text-primary-color);
-    padding: 3.5rem;
+    padding: 2rem;
     border-radius: 0.8rem;
     box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
     background: var(--bgnd-color);
