@@ -29,8 +29,6 @@
   /* Secondary color - use for secondary elements and accents */
   --secondary-color: #95a3b076; /* Gray */
 
-  /* Accent color - use for call-to-action buttons and important elements */
-  --accent-color: #2410a9; /* blue */
   /* Background color - use for background of the page */
   --background-color: #f8f9fa; /* Light gray */
 
@@ -112,7 +110,8 @@ html{
 /*-------------------services--------------------------------*/
 
 .services {
-    background: var(--bg-sc-color);
+    background: url(../img/icons/icons/treeplanting2-removebg-preview.png);
+    background-repeat: repeat;
     padding-bottom: 4rem;
 }
 

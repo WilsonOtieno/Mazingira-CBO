@@ -241,29 +241,6 @@ header .navbar a:hover{
 
 }
 
-/*
-.moving-words {
-    flex: 1;
-    margin-left: .7rem;
-    line-height: 2.5rem;
-}
-
-.moving-words h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--background-color);
-}
-
-.moving-words h3 {
-    font-size: 1.6rem;
-    font-weight: bold;
-    color: var(--text-color);
-}
-
-.moving-words span {
-    color: var(--accent-color);
-}
-*/
 
 
 .row1 {
@@ -397,7 +374,9 @@ header .navbar a:hover{
 }
 
 .heading-about  h4 {
-    color: var(--primary-color);
+    color: var(--text-color);
+    font-weight: 800;
+
 }
 
 .about .box{
@@ -406,7 +385,7 @@ header .navbar a:hover{
     justify-content: space-between;
     gap: 2rem;
     margin-top: 3rem;
-    background-image: linear-gradient(to right, rgb(16, 85, 16), rgb(5, 94, 5), rgb(224, 238, 144), rgb(6, 185, 66), rgb(85, 57, 16));
+    background-image: repeating-conic-gradient(green 15%, rgb(15, 92, 5) 20%);
     padding: 2rem;
 }
 
@@ -435,11 +414,11 @@ header .navbar a:hover{
     object-fit: cover;
 }
 .about .box .content h3{
-    color: var(--text-primary-color);
+    color: #fff;
     font-size: 3.5rem;
 }
 .about .box .content p{
-    color: var(--text-color);
+    color: #fff;
     font-size: 1.7rem;
     margin: 2rem 0;
     line-height: 2rem;
@@ -525,62 +504,6 @@ header .navbar a:hover{
     font-size: 2rem;
 }
 
-/* ----------------teams----------------
-.team{
-    width: 100%;
-}
-.team .row{
-
-   background: url(../img/machines-img/back-feature.jpg);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-attachment: fixed;
-   position: relative;
-   display: flex;
-   align-items: center;
-   min-height: 70vh;
-} 
-.row::before{
-    content: "";
-    background: var(--bg-sc-color);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-.team .row .team-slider  .box{
-    padding: 0 3%;
-}
-.team .team-slider .box .content{
-    position: relative;
-    background: var(--bg-color);
-    box-shadow: 0 0.5 0.5 rgba(0, 0, 0, 0.6);
-    text-align: center;
-    padding: 4rem;
-    border-radius: 1rem;
-    height:30rem;
-}
-.team .team-slider .box .content img{
-    width: 100%;
-    height: 60vh;
-    position: absolute;
-
-    
-}
-.team .team-slider .box .content h3{
-    position: absolute;
-    font-size: 2rem;
-    color: var(--sc-color);
-    margin: 1rem;
-
-}
-.team .team-slider .box .content p{
-    color: #fff;
-    font-size: 2.2rem;
-} */
-
 /*-----------------services1--------------------------------*/
 
 .services1 div h3 {
@@ -638,96 +561,7 @@ header .navbar a:hover{
     margin-bottom: 1rem;
 }
 
-
-/*-------------------news-----------------*/
-
-.news-calendar .row{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    margin: 2rem 0;
-}
-
-.news-calendar .row .box .more,
-.news-calendar .row .box .more2 {
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-}
-
-.news-calendar .row .box .more p {
-    font-size: 1.6rem;
-    line-height: 2.5rem;
-    margin-left: 6.2rem;
-}
-
-.news-calendar .row .box .more2 p {
-    font-size: 1.6rem;
-    line-height: 2.5rem;
-}
-
-.news-calendar .row .box .more h4,
-.news-calendar .row .box .more2 h4 {
-    font-weight: 700;
-    font-size: 1.7rem;
-    color: var(--primary-color);
-}
-
-.news-calendar .row .box .more .box-2 {
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 6rem 1fr;
-    align-items: center;
-}
-
-
-
-.news-calendar .row .box .more2 .box {
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 21rem 1fr;
-    gap: 1.3rem;
-
-}
-
-.news-calendar .row .box .more .box-2 img {
-    width: 4.5rem;
-}
-
-.news-calendar .row .box .more div .tools {
-    height: 4rem;
-    
-}
-
-.news-calendar .row .box .more2 .box img {
-    width: 20rem;
-}
-
-
-.news-calendar .row p{
-    color: var(--text-primary-color);
-    font-size: 2rem;
-    margin: 1rem 0;
-}
-
-.news-calendar .row .box .h2-div h2{
-    font-size: 3rem;
-}
-
-.news-calendar .row .box .h2-div div {
-    display: inline-block;
-    border-bottom: .5rem solid var(--accent-color);
-    width: 13rem;
-}
-
-.news-calendar .row .box .h2-div .border-btm {
-    display: inline-block;
-    border-bottom: .5rem solid var(--accent-color);
-    width: 19rem;
-}
-
-.news-calendar .row .box .h2-div div:hover{
-    width: 20rem;
-}
+/*-------------------footer--------------------------------*/
 
 
 .footer{
@@ -928,11 +762,7 @@ footer .content p {
         color: var(--background-color);
     }
     
-    .dropdown-trigger:before,
-    .with-submenu:before {
-    content: '\25BC'; /* Unicode for down arrow */
-    margin-right: 5px;
-    }
+    
     .navbar .nav-links ul li .dropdown {
         background: var(--primary-color);
     }
@@ -989,9 +819,6 @@ footer .content p {
         grid-template-columns: 1fr 1fr;
     }
 
-    .news-calendar .row{
-        grid-template-columns: repeat(auto-fit,minmax(80%,1fr));
-    }
     
     .footer{
 
@@ -1080,13 +907,14 @@ footer .content p {
     .services1 .row, .services .row, .mission-vision .about-mission {
         grid-template-columns: 1fr;
     }
+    .services .row .box {
+        margin: 0 2rem;
+    }
     .about .box .video-links iframe {
         max-width: 400px;
         max-height: 250px;
     }
-    .moving-words {
-        margin-left: .9rem;
-    }
+    
     .home .home-slid .box .content{
         width: 50rem;
         padding: 2rem;
@@ -1113,9 +941,6 @@ footer .content p {
     .about .box .video-links iframe {
         max-width: 310px;
         max-height: 200px;
-    }
-    .news-calendar .row .box .more2 .box {
-        grid-template-columns: 1fr;
     }
     .contact .box {
         grid-template-columns: 1fr;
