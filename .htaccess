@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Remove .html extension from existing files
+# If the request is for a .html file and it exists, then rewrite without .html
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+# If you want to redirect .html URLs to the non-extension version (optional)
+# This will redirect any URL ending with .html to the same URL without .html
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
+RewriteRule ^(.*)\.html$ /$1 [R=301,L]
