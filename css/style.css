@@ -360,6 +360,27 @@ header .navbar a:hover{
     line-height: 3rem;
 }
 
+/* Common styles for professional look */
+.swiper-scroll {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+.home-slid {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px; /* Optional: rounded corners */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Optional: subtle shadow */
+}
+
+/* Ensure images cover properly */
+.swiper-image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 
 /* ----------------about ----------------*/
 

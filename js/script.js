@@ -48,6 +48,7 @@ function carousel() {
   setTimeout(carousel, 6000); // Change slide every 6 seconds
 }
 
+
 /*======================= scroll reveal ===============*/
 ScrollReveal({ 
   // reset: true,
